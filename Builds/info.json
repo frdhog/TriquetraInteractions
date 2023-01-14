@@ -1,0 +1,18 @@
+{
+  "name": "TriquetraInteractions",
+  "description": "A dependency to make interactions with VRInteractables simpler",
+  "dll_file": "TriquetraInteractions.dll",
+  "last_edit": 638093123845392969,
+  "pub_id": "",
+  "json_version": "",
+  "version": "1.0.0",
+  "tagline": "",
+  "repository": "",
+  "is_public": false,
+  "unlisted": false,
+  "preview_image": "",
+  "web_preview_image": "",
+  "dependencies": [],
+  "mod_dependencies": null,
+  "ContentType": 3
+}
