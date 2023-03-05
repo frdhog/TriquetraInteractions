@@ -52,6 +52,7 @@ namespace Triquetra
             VRButton button = interactable.GetComponent<VRButton>();
             EjectHandle eject = interactable.GetComponent<EjectHandle>();
             VRDoor door = interactable.GetComponent<VRDoor>();
+            VRKeyboard.VRKey vrKey = interactable.GetComponent<VRKeyboard.VRKey>();
 
             if (lever != null)
             {
@@ -60,6 +61,10 @@ namespace Triquetra
             else if (twistKnobInt != null)
             {
                 MoveTwistKnobInt(twistKnobInt, 1);
+            }
+            else if (vrKey != null)
+            {
+                vrKey.OnPress();
             }
             else if (button != null)
             {
